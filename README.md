@@ -24,6 +24,7 @@ Rather than placing a `display: none;` on an element when it needs to be hidden,
 
     module.exports = React.createClass({
       render: function() {
+        // If the window size passed into this component is less than 768 pixels, it renders nothing.
         return (
           <ResponsiveDisplay hiddenSm={true} windowSize={this.props.windowSize}>
             <h1>Hello, World</h1>
