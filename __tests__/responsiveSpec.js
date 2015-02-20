@@ -4,7 +4,7 @@ jest.dontMock('../react-responsive-display');
 var React = require('react/addons');
 var TestUtils = React.addons.TestUtils;
 
-var Responsive = require('../react-responsive');
+var Responsive = require('../react-responsive-display');
 
 describe('react-responsive', function() {
   it('does not display children components if the window size is less than 768 px and hidden-xs is true', function() {
