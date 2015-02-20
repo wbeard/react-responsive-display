@@ -2,7 +2,7 @@
   "name": "react-responsive-display",
   "version": "0.0.1",
   "description": "Conditionally render react components based on common viewport breakpoints.",
-  "main": "react-responsive.js",
+  "main": "src/react-responsive.js",
   "scripts": {
     "test": "jest"
   },
