@@ -1,0 +1,26 @@
+{
+  "name": "react-responsive-display",
+  "version": "0.0.1",
+  "description": "Conditionally render react components based on common viewport breakpoints.",
+  "main": "react-responsive.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "responsive"
+  ],
+  "author": "William Beard <wbeard@rallydev.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^0.1.37",
+    "react": "^0.12.2",
+    "react-tools": "^0.12.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/utils/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
+  }
+}
