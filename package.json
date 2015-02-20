@@ -8,7 +8,8 @@
   },
   "keywords": [
     "react",
-    "responsive"
+    "responsive",
+    "react-component"
   ],
   "author": "William Beard <wbeard@rallydev.com>",
   "license": "MIT",
